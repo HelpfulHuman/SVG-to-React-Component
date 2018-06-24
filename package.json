@@ -1,0 +1,47 @@
+{
+  "name": "@nicklgenn/svg-to-react",
+  "version": "1.0.0",
+  "description": "Quickly generate React components out of SVG files.",
+  "main": "dist/index.js",
+  "bin": {
+    "svg2react": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickglenn/react-svg-cli.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "cli",
+    "svg",
+    "convert",
+    "conversion"
+  ],
+  "author": "Nick Glenn <nick@helpfulhuman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickglenn/react-svg-cli/issues"
+  },
+  "homepage": "https://github.com/nickglenn/react-svg-cli#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/lodash": "^4.14.109",
+    "@types/node": "^10.3.2",
+    "@types/nunjucks": "^3.0.0",
+    "@types/xml-js": "^1.0.0",
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "lodash": "^4.17.10",
+    "nunjucks": "^3.1.3",
+    "xml-js": "^1.6.4"
+  }
+}

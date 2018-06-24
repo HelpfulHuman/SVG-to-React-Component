@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#4A86CC" fill="#D8D8D8" cx="32.5" cy="32.5" r="22.5"></circle>
+        <rect id="Rectangle" stroke="#FF0000" fill="#D8D8D8" x="40.5" y="7.5" width="11" height="32"></rect>
+        <rect id="Rectangle-2" stroke="#31C945" fill="#AF24BC" x="6.5" y="16.5" width="22" height="11"></rect>
+    </g>
+</svg>
