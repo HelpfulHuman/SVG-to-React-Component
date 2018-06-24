@@ -5,7 +5,7 @@ This is a command line tool for quickly generate React components from SVG files
 ## Installation
 
 ```bash
-npm i -g @nickglenn/svg-to-react
+npm i -g @helpfulhuman/svg-to-component
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ svg2react my-graphic.svg
 
 ### Options
 
-```
+```bash
 Usage: svg2react [options] <filename>
 
 Options:
