@@ -1,7 +1,7 @@
-import { camelCase, capitalize } from "lodash";
+import { camelCase } from "lodash";
 import { xml2js, Element, js2xml, Attributes } from "xml-js";
 import * as nunjucks from "nunjucks";
-import { TEMPLATE_TS } from "./templates/typescript";
+import { REACT_TS_TEMPLATE, REACT_ES_TEMPLATE } from "./templates/react";
 
 export type ConvertSVGOpts = {
   contents: string;
@@ -133,7 +133,7 @@ export function convertSVGToComponent({
   });
 
   // determine what template we're going to use
-  let template = (typescript ? TEMPLATE_TS : "es6.html");
+  let template = (typescript ? REACT_TS_TEMPLATE : REACT_ES_TEMPLATE);
 
   // add additional tabbing to the SVG results for the return () blocks
   let svg = parsed.split("\n")

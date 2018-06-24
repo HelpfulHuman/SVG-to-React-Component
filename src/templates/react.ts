@@ -1,4 +1,18 @@
-export const TEMPLATE_TS =
+export const REACT_ES_TEMPLATE =
+  `import React from "react";
+
+export function {{ componentName }}(props) {
+  return (
+{{ svg | safe }}
+  );
+}
+
+{{ componentName }}.defaultProps = {
+  {% for name, desc in props %}{{ name }}: {{ stringify(desc.defaultValue) | safe }},
+  {% endfor %}
+};`;
+
+export const REACT_TS_TEMPLATE =
   `import * as React from "react";
 
 export type {{ componentName }}Props = {
