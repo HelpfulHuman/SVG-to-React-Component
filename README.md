@@ -1,6 +1,6 @@
 # SVG to React Component
 
-This is a command line tool for quickly generate React components from SVG files with customizable attributes (as props).
+This is a command line tool for quickly generate React components from SVG files with customizable attributes (as props). Support for Preact and other component-based frameworks will be made available soon.
 
 ## Installation
 
